@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "AIABody";
+  src: url("../assets/fonts/AIAEverest-Regular.eot");
+  src: url("../assets/fonts/AIAEverest-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/AIAEverest-Regular.woff") format("woff"),
+    url("../assets/fonts/AIAEverest-Regular.ttf") format("truetype"),
+    url("../assets/fonts/AIAEverest-Regular.svg#iconfont") format("svg");
+}
+
+body {
+  font-family: "AIABody", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+.page-title {
+  margin-top: 0.2em;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5em;
+}
